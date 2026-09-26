@@ -19,5 +19,5 @@ if st.button("Detect Emotion"):
         pred = model.predict(vec)[0]
         st.success(f"Predicted Emotion: {pred}")
     else:
-        st.write("Please enter some text first 
+        st.write("Please enter some text first")
         st.markdown("Made by Ekta & Arsh")
